@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Contactos</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="./contactos.html">Contactos</a>
+                </li>
+                <li>
+                    <a href="./sucursal.html">Sucursal</a>
+                </li>
+                <li>
+                    <a href="./mediosdepago.html">Medios de Pago</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        Seguinos en nuestras redes 👾✌
+        <img src="./imagenes/contactos pagina ventas.jpg" width="350px" alt="Contactos">
+        <br>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li> <a href="https://www.facebook.com/">Facebook</a></li>
+        <li> Contactanos via <a href="https://web.whatsapp.com/">Whatsapp</a> para reclamos</li>
+        <br>
+        INSCRIBITE EN NUESTRA PAGINA PARA RECIBIR LAS MEJORES NOVEDADES DE NUESTROS PRODUCTOS
+        <form>
+            <fieldset>
+                <legend>Formulario de Contacto</legend>
+                <div>
+                    <label for="Nombre">Completa con tu nombre</label>
+                    <input type="text" name="Nombre" placeholder="Juan">
+                </div>
+                
+                <div>
+                    <label for="Apellido">Completa con tu apellido</label>
+                    <input type="text" name="Apellido" placeholder="Perez">
+                </div>
+                
+                <div>
+                    <label for="mail">Escribe tu email *</label>
+                    <input type="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="pass">Contraseña</label>
+                    <input type="Password" name="password">
+                </div>
+                
+                <div>
+                    <label for="Genero">Genero</label>
+                    <input type="Radio" name="Genero" value="Mujer">MUJER
+                    <input type="Radio" name="Genero" value="Hombre">HOMBRE
+                    <input type="Radio" name="Genero" value="Otro">NO BINARIO
+                </div>
+                
+                <div>
+                    <label for="pais">Nacionalidad</label>
+                    <select name="pais" id="">
+                        <option value="Arg">Argentina</option>
+                        <option value="Br">Brasil</option>
+                        <option value="Col">Colombia</option>
+                        <option value="Per">Peru</option>
+                        <option value="Uru">Uruguay</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="comen">Escribe tus comentarios</label><br>
+                    <textarea name="comen" id="" cols="30" rows="10"></textarea>
+                </div>
+                
+                <div>
+                    <label for="terminos">Acepta terminos y condiciones</label>
+                    <input type="checkbox" name="terminos">
+                </div>
+                
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
