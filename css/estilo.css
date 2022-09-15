@@ -108,9 +108,17 @@ hr
   padding: 1rem;
 }
 
-.main video {
+.video {
   text-align: center;
   padding: 1rem;
+}
+
+.video{
+  transition: all 2s ease;
+}
+.video{
+  width: 90%;
+  height: 450px;
 }
 
 .footer {
