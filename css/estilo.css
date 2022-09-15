@@ -81,9 +81,9 @@ nav ul li a:hover {
   grid-template-columns: 1fr;
   grid-template-rows: auto 3fr auto;
   grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
+    "header "
+    "main "
+    "footer";
 }
 
 hr 
@@ -127,9 +127,9 @@ hr
   grid-template-columns: 1fr;
   grid-template-rows: auto 3fr auto;
   grid-template-areas: 
-  "header heade"
-  "main main"
-  "footer footer";
+  "header "
+  "main"
+  "footer ";
 }
 .headerprod{
 grid-area: header;
@@ -151,22 +151,19 @@ justify-content: space-around;
   grid-area: footer;
   text-align: start;
 }
-/*mobile first*/
-@media screen and (min-width:720px) 
-{.contenedor {background-color: burlywood;}}
-@media screen and (min-width: 1040px)
-{.contenedor {background-color: rgb(184, 138, 78);}}
-@media screen and (min-width:1433px) 
-{.contenedor {background-color: rgb(131, 99, 57);}}
-@media screen and (min-width:1600px) 
-{.contenedor {background-color: rgb(66, 52, 34);}}
 
-/*Desktop First*/
 @media screen and (max-width:1433px) 
 {.contenedor {background-color: rgb(46, 114, 126);}}
 @media screen and (max-width: 1040px)
 {.contenedor {background-color: rgb(53, 75, 78);}}
-@media screen and (max-width:720px) 
-{.contenedor {background-color: rgb(8, 73, 85);}}
 @media screen and (max-width:360px) 
 {.contenedor {background-color: rgb(8, 30, 34);}}
+@media screen and (max-width:720px)
+{.contenedor { background-color: rgb(85, 85, 206);}
+header{
+  flex-direction: column;
+}
+nav ul{
+  flex-direction: column;
+  height: fit-content;
+}}
