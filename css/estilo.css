@@ -178,3 +178,18 @@ nav ul{
 .infous{
   font-family: Arial, Helvetica, sans-serif;
 }
+.texpag{
+  text-align: center;
+  color: beige;
+}
+.headermp{
+  background-color: rgb(117, 117, 214);
+  margin: 0;
+  padding: 0;
+}
+.imgpago{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px
+}
