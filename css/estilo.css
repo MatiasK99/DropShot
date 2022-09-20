@@ -227,5 +227,22 @@ nav ul{
   display: flex;
   grid-area: main;
 }
-
+.imgp1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px
+}
+.imgp2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px
+}
+.imgp3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px
+}
 
