@@ -34,72 +34,114 @@
             </ul>
         </nav>
     </header>
-    <hr>
-    <main>
-        Seguinos en nuestras redes 👾✌
-        <img src="./imagenes/contactos pagina ventas.jpg" width="350px" alt="Contactos">
-        <br>
-        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-        <li> <a href="https://www.facebook.com/">Facebook</a></li>
-        <li> Contactanos via <a href="https://web.whatsapp.com/">Whatsapp</a> para reclamos</li>
-        <br>
-        INSCRIBITE EN NUESTRA PAGINA PARA RECIBIR LAS MEJORES NOVEDADES DE NUESTROS PRODUCTOS
-        <form>
-            <fieldset>
-                <legend>Formulario de Contacto</legend>
-                <div>
-                    <label for="Nombre">Completa con tu nombre</label>
-                    <input type="text" name="Nombre" placeholder="Juan">
-                </div>
-                
-                <div>
-                    <label for="Apellido">Completa con tu apellido</label>
-                    <input type="text" name="Apellido" placeholder="Perez">
-                </div>
-                
-                <div>
-                    <label for="mail">Escribe tu email *</label>
-                    <input type="email" name="email" required>
-                </div>
-                
-                <div>
-                    <label for="pass">Contraseña</label>
-                    <input type="Password" name="password">
-                </div>
-                
-                <div>
-                    <label for="Genero">Genero</label>
-                    <input type="Radio" name="Genero" value="Mujer">MUJER
-                    <input type="Radio" name="Genero" value="Hombre">HOMBRE
-                    <input type="Radio" name="Genero" value="Otro">NO BINARIO
-                </div>
-                
-                <div>
-                    <label for="pais">Nacionalidad</label>
-                    <select name="pais" id="">
-                        <option value="Arg">Argentina</option>
-                        <option value="Br">Brasil</option>
-                        <option value="Col">Colombia</option>
-                        <option value="Per">Peru</option>
-                        <option value="Uru">Uruguay</option>
-                    </select>
-                </div>
-                
-                <div>
-                    <label for="comen">Escribe tus comentarios</label><br>
-                    <textarea name="comen" id="" cols="30" rows="10"></textarea>
-                </div>
-                
-                <div>
-                    <label for="terminos">Acepta terminos y condiciones</label>
-                    <input type="checkbox" name="terminos">
-                </div>
-                
-                <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar">
-                </div>
-            </fieldset>
+    
+    <main class="maincontacs">
+       <h4>
+            Seguinos en nuestras redes 👾✌
+            <img src="./imagenes/contactos pagina ventas.jpg" width="350px" alt="Contactos">
+            <br>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li> <a href="https://www.facebook.com/">Facebook</a></li>
+            <li> Contactanos via <a href="https://web.whatsapp.com/">Whatsapp</a> para reclamos</li>
+            <br>
+            INSCRIBITE EN NUESTRA PAGINA PARA RECIBIR LAS MEJORES NOVEDADES DE NUESTROS PRODUCTOS
+            <form>
+               
+                    <fieldset>
+                        <legend>Formulario de Contacto</legend>
+                        <div>
+                            <label for="Nombre">Completa con tu nombre</label>
+                            <input type="text" name="Nombre" placeholder="Juan">
+                        </div>
+                        
+                        <div>
+                            <label for="Apellido">Completa con tu apellido</label>
+                            <input type="text" name="Apellido" placeholder="Perez">
+                        </div>
+                        
+                        <div>
+                            <label for="mail">Escribe tu email *</label>
+                            <input type="email" name="email" required>
+                        </div>
+                        
+                        <div>
+                            <label for="pass">Contraseña</label>
+                            <input type="Password" name="password">
+                        </div>
+                        
+                        <div>
+                            <label for="Genero">Genero</label>
+                            <input type="Radio" name="Genero" value="Mujer">MUJER
+                            <input type="Radio" name="Genero" value="Hombre">HOMBRE
+                            <input type="Radio" name="Genero" value="Otro">NO BINARIO
+                        </div>
+                        
+                        <div>
+                            <label for="pais">Nacionalidad</label>
+                            <select name="pais" id="">
+                                <option value="Arg">Argentina</option>
+                                <option value="Br">Brasil</option>
+                                <option value="Col">Colombia</option>
+                                <option value="Per">Peru</option>
+                                <option value="Uru">Uruguay</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="comen">Escribe tus comentarios</label><br>
+                            <textarea name="comen" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        
+                        <div>
+                            <label for="terminos">Acepta terminos y condiciones</label>
+                            <input type="checkbox" name="terminos">
+                        </div>
+                        
+                        <div>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar">
+                        </div>
+                    </fieldset>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              ¿ Si no me gusta un producto puedo cambiarlo ?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>SI.</strong>Todo lo que compres en DropShot lo podes cambiar a menos que se trate de productos identificados como LIQUIDACIÓN cuyos cambios estarán condicionados a disponibilidad de stock. En caso de querer cambiar por otro producto, podrás hacerlo eligiendo cualquier artículo de los que estén en la web.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              ¿ Hacen envios a todo el pais ?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>SI.</strong> Los envíos gratuitos son para encomiendas dentro del territorio Argentino y con un monto mínimo compra de $19.999.
+                              Las compras inferiores a $19.999 tienen un costo de envío de $1.190
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              ¿ Como se si mi pago fue acreditado ?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Por confirmacion.</strong> Una vez que tu pago haya sido acreditado correctamente por administración, recibirás un correo electrónico informándote el número de acreditación.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+       </h4>
         </form>
     </main>
     <footer></footer>
