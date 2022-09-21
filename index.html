@@ -9,39 +9,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilo.css">
-    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>DropShot</title>
-    
-    
+
+
 </head>
 
 <body>
     <div class="contenedor">
         <header>
-            <img class="logo animate__animated animate__lightSpeedInRight" src="./imagenes/drop_shot_l.jpg" alt="LogoTennis">
+            <img class="logo animate__animated animate__lightSpeedInRight" src="./imagenes/drop_shot_l.jpg"
+                alt="LogoTennis">
 
 
-            <nav>
-                <ul class="accesos">
-                    <li>
-                        <a href="./index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a href="./contactos.html">Contactos</a>
-                    </li>
-                    <li>
-                        <a href="./sucursal.html">Sucursal</a>
-                    </li>
-                    <li>
-                        <a href="./mediosdepago.html">Medios de Pago</a>
-                    </li>
-                    </p>
-                </ul>
-                </h>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="mediosdepago.html">Medios de
+                                    Pago</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="sucursal.html">Sucursal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactos.html">Contactos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="productos.html">Ofertas</a></li>
+                                    <li><a class="dropdown-item" href="productos.html">Zapatillas</a></li>
+                                    <li><a class="dropdown-item" href="productos.html">Raquetas</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -51,22 +73,29 @@
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-               <h4 class="infous">
+            <h4 class="infous">
                 <p class="lead">
-                    El Abierto de Estados Unidos (en inglés, US Open) antiguamente conocido como Campeonato Nacional de Estados Unidos
-                     es cronológicamente el cuarto y último torneo oficial de Grand Slam de tenis de la temporada. Se disputa anualmente 
-                     entre agosto y septiembre, en cinco modalidades: individuales de hombres y mujeres, dobles de hombres y mujeres y dobles 
-                     mixtos, aunque existen también torneos adicionales para jugadores juniors y seniors. Desde 1978, el torneo se disputa en el 
-                     USTA Billie Jean King National Tennis Center (renombrado así en 2006), en Flushing Meadows, Nueva York.
+                    El Abierto de Estados Unidos (en inglés, US Open) antiguamente conocido como Campeonato Nacional de
+                    Estados Unidos
+                    es cronológicamente el cuarto y último torneo oficial de Grand Slam de tenis de la temporada. Se
+                    disputa anualmente
+                    entre agosto y septiembre, en cinco modalidades: individuales de hombres y mujeres, dobles de
+                    hombres y mujeres y dobles
+                    mixtos, aunque existen también torneos adicionales para jugadores juniors y seniors. Desde 1978, el
+                    torneo se disputa en el
+                    USTA Billie Jean King National Tennis Center (renombrado así en 2006), en Flushing Meadows, Nueva
+                    York.
                 </p>
-               </h4>  
+            </h4>
         </main>
 
         <footer class="footer">
             <h4>DropShot ✔ Dedicados al Tennis 🥎 </h4>
         </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
