@@ -198,6 +198,7 @@ nav ul{
   padding: 1.2rem;
   display: flex;
   justify-content: space-around;
+  background-color: rgb(105, 105, 238);
 }
 
 .mainmp {
@@ -236,4 +237,13 @@ img, svg {
 }
 .imgc{
   max-width: 100%;
+}
+.mainsu{
+background-color: rgb(99, 99, 240);
+padding: 3rem;
+}
+.footersu{
+background-color: rgb(97, 97, 212);
+padding: 3rem;
+text-align: center;
 }
