@@ -228,11 +228,10 @@ nav ul{
 
 .mainprod {
   background-color: rgb(95, 95, 240);
-  padding: 3rem;
   justify-content: center;
   flex-direction: column;
-  display: flex;
   grid-area: main;
+  text-align: center;
 }
 img, svg {
   width: 100%;
