@@ -1,5 +1,5 @@
 main {
-  background-color: beige;
+  background-color: $fondo_beige;
 
   h2 {
     text-align: center;
@@ -31,7 +31,7 @@ main {
 }
 
 .mainsu {
-  background-color: beige;
+  background-color: $fondo_beige;
 
   .maps {
     width: 100%;
@@ -42,13 +42,13 @@ main {
 }
 
 .mainprod {
-  background-color: beige;
+  background-color: $fondo_beige;
   padding: 3rem;
   text-align: center;
 }
 
 .maincontacs {
-  background-color: beige;
+  background-color: $fondo_beige;
   padding: 3rem;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -63,7 +63,7 @@ main {
 }
 
 .mainmp {
-  background-color: beige;
+  background-color: $fondo_beige;
   padding: 3rem;
   text-align: center;
 

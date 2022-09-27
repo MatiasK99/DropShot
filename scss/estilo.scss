@@ -1,25 +1,13 @@
+$fondo_beige: #f5f5dc;
+$letra_negra: #000000;
 body {
-  background-color: beige;
+  background-color: $fondo_beige;
 }
-
 
 @import "header";
 @import "main";
 @import "footer";
 
-.maincontacs {
-  background-color: beige;
-  padding: 3rem;
-  text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- 
-  h2{
-    text-align: center;
-  }
-  .imgc {
-    width: 100%;
-  }
-}
 
 
 
@@ -34,32 +22,8 @@ body {
 
 
 
-.imgpago {
-  width: 100%;
-  text-align: center;
-}
-
-.footermp {
-  padding: 3rem;
-  text-align: center;
-}
 
 
-.footercon {
-  padding: 3rem;
-  text-align: center;
-}
 
 
-.mainmp {
-  padding: 3rem;
-  text-align: center;
-}
 
-.imgpago {
-  transition: all 2s ease;
-}
-
-.imgpago:hover {
-  width: 850px;
-}
