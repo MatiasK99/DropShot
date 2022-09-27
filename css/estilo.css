@@ -1,6 +1,10 @@
 body {
   background-color: #f5f5dc; }
 
+img,
+svg {
+  width: 100%; }
+
 .logo {
   width: 100px; }
 
@@ -70,7 +74,7 @@ main {
   .mainmp .imgpago {
     transition: all 2s ease; }
   .mainmp .imgpago:hover {
-    width: 850px; }
+    width: 400px; }
 
 footer {
   background-color: #f5f5dc; }

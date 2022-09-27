@@ -5,6 +5,11 @@ body {
   background-color: $fondo_beige;
 }
 
+img,
+svg {
+  width: 100%;
+}
+
 @import "header";
 @import "main";
 @import "footer";
