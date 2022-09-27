@@ -1,3 +1,7 @@
+header{
+  
+}
+
 .video {
   text-align: center;
   padding: 1rem;
@@ -32,7 +36,7 @@
   text-align: center;
 }
 
-headercon {
+.headercon {
   max-width: 100%;
 }
 

@@ -1,61 +1,123 @@
-.video {
-  text-align: center;
-  padding: 1rem; }
-
-.video {
-  transition: all 2s ease; }
-
-.video {
-  width: 90%;
-  height: 450px; }
-
-.maps {
-  width: 100%;
-  height: 500px; }
-
-.footersu {
-  padding: 3rem;
-  text-align: center; }
-
-.footerprod {
-  padding: 3rem;
-  text-align: center; }
-
-.mainprod {
-  padding: 3rem;
-  text-align: center; }
-
-.headercon {
-  max-width: 100%; }
-
-img,
-svg {
-  width: 100%; }
+body {
+  background-color: beige; }
 
 .logo {
   width: 100px; }
 
-body {
-  background-color: #a3e4d9; }
+header {
+  background-color: beige; }
+
+.headersu {
+  background-color: beige; }
+
+.headerprod {
+  background-color: beige; }
+
+.headercon {
+  max-width: 100%;
+  background-color: beige; }
+
+.headermp {
+  background-color: beige; }
+
+main {
+  background-color: beige; }
+  main h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; }
+  main .video {
+    text-align: center;
+    padding: 1rem; }
+  main .video {
+    transition: all 2s ease; }
+  main .video {
+    width: 100%;
+    height: 450px; }
+  main h4 {
+    color: black;
+    text-align: center; }
+  main p {
+    padding: 10px; }
+
+.mainsu {
+  background-color: beige; }
+  .mainsu .maps {
+    width: 100%;
+    height: 500px; }
+
+.mainprod {
+  background-color: beige;
+  padding: 3rem;
+  text-align: center; }
+
+.maincontacs {
+  background-color: beige;
+  padding: 3rem;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .maincontacs h2 {
+    text-align: center; }
+  .maincontacs .imgc {
+    width: 100%; }
+
+.mainmp {
+  background-color: beige;
+  padding: 3rem;
+  text-align: center; }
+  .mainmp .imgpago {
+    width: 100%;
+    text-align: center; }
+  .mainmp .imgpago {
+    transition: all 2s ease; }
+  .mainmp .imgpago:hover {
+    width: 850px; }
+
+footer {
+  background-color: beige; }
+  footer h4 {
+    color: black;
+    padding: 3rem;
+    text-align: center; }
+
+.footersu {
+  background-color: beige;
+  padding: 3rem;
+  text-align: center; }
+
+.footerprod {
+  background-color: beige;
+  padding: 3rem;
+  text-align: center; }
+
+.footercon {
+  background-color: beige;
+  padding: 3rem;
+  text-align: center; }
+
+.footermp {
+  background-color: beige;
+  padding: 3rem;
+  text-align: center; }
+
+.maincontacs {
+  background-color: beige;
+  padding: 3rem;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .maincontacs h2 {
+    text-align: center; }
+  .maincontacs .imgc {
+    width: 100%; }
 
 .imgpago {
-  width: 700px;
+  width: 100%;
   text-align: center; }
 
 .footermp {
   padding: 3rem;
   text-align: center; }
 
-.maincontacs {
-  padding: 3rem;
-  text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
 .footercon {
-  padding: 3rem;
-  text-align: center; }
-
-.footer {
   padding: 3rem;
   text-align: center; }
 
@@ -68,14 +130,3 @@ body {
 
 .imgpago:hover {
   width: 850px; }
-
-main {
-  padding: 3rem;
-  text-align: center;
-  background-color: beige; }
-
-header {
-  background-color: beige; }
-
-footer {
-  background-color: beige; }
