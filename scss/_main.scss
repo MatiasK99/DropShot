@@ -59,7 +59,7 @@ main {
   }
 
   .imgc {
-    width: 100%;
+    width: $ancho;
   }
 }
 
@@ -69,7 +69,7 @@ main {
   text-align: center;
 
   .imgpago {
-    width: 100%;
+    width: $ancho;
     text-align: center;
   }
 
@@ -78,6 +78,6 @@ main {
   }
 
   .imgpago:hover {
-    width: 400px;
+    width: $altura - 100px;
   }
 }
