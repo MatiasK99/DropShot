@@ -7,14 +7,20 @@ main {
     font-family: 'Times New Roman', Times, serif;
   }
 
+
   .video {
-    @include video
+    text-align: center;
+    padding: 1rem;
   }
 
   .video {
     transition: all 2s ease;
   }
 
+  .video {
+    width: $ancho;
+    height: $altura - 50px ;
+  }
 
   h4 {
     color: black;

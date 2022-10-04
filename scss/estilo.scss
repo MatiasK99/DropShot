@@ -1,14 +1,24 @@
 $fondo_beige: #f5f5dc;
 $letra_negra: #000000;
+$gris: #c0c4c7;
 $ancho: 100%;
 $altura: 500px;
 
-@mixin video($medidas){
-  text-aling: center;
-  padding: 1rem;
-  width: 100%;
-  height: 450px;
+@mixin sections (){
+  background-color: $gris;
+  border-radius: 10px;
+  &__titulo{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+  }
+  &__texto{
+    color: white;
+    line-height: 2;
+    padding: 1rem;
+  }
 }
+
 
 body {
   background-color: #f5f5dc;
@@ -19,3 +29,10 @@ body {
 @import "header";
 @import "main";
 @import "footer";
+ 
+main{
+  @extend .maps;
+  .section1{
+    @include sections
+  }
+}
