@@ -11,6 +11,8 @@ svg {
   width: 100px;
 }
 
+/*#colores header*/
+
 header {
   background-color: #f5f5dc;
 }
@@ -32,39 +34,52 @@ header {
   background-color: #f5f5dc;
 }
 
+/*#main index*/
+
 main {
   background-color: #f5f5dc;
 }
+
 main h2 {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
+
 main .video {
   text-align: center;
   padding: 1rem;
 }
+
 main .video {
   transition: all 2s ease;
 }
+
 main .video {
   width: 100%;
   height: 450px;
 }
+
 main h4 {
   color: black;
   text-align: center;
 }
+
 main p {
   padding: 10px;
 }
 
+/*# main sucursal */
+
 .mainsu {
   background-color: #f5f5dc;
 }
+
 .mainsu .maps {
   width: 100%;
   height: 500px;
 }
+
+/*# main productos */
 
 .mainprod {
   background-color: #f5f5dc;
@@ -72,64 +87,80 @@ main p {
   text-align: center;
 }
 
+/*#main contactos */
+
 .maincontacs {
   background-color: #f5f5dc;
   padding: 3rem;
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .maincontacs h2 {
   text-align: center;
 }
+
 .maincontacs .imgc {
   width: 100%;
 }
 
+/*# main pagos*/
 .mainmp {
   background-color: #f5f5dc;
   padding: 3rem;
   text-align: center;
 }
+
 .mainmp .imgpago {
   width: 100%;
   text-align: center;
 }
+
 .mainmp .imgpago {
   transition: all 2s ease;
 }
+
 .mainmp .imgpago:hover {
   width: 850px;
 }
 
+/*#footer index*/
 footer {
   background-color: #f5f5dc;
 }
+
 footer h4 {
   color: #000000;
   padding: 3rem;
   text-align: center;
 }
 
+/*#footer sucursal*/
 .footersu {
   background-color: #f5f5dc;
   padding: 3rem;
   text-align: center;
 }
 
+/*#footer productor*/
 .footerprod {
   background-color: #f5f5dc;
   padding: 3rem;
   text-align: center;
 }
 
+/*#footer contactos*/
 .footercon {
   background-color: #f5f5dc;
   padding: 3rem;
   text-align: center;
 }
 
+/*#footer pagos*/
 .footermp {
   background-color: #f5f5dc;
   padding: 3rem;
   text-align: center;
-}/*# sourceMappingURL=estilo.css.map */
+}
+
+/*# sourceMappingURL=estilo.css.map */
